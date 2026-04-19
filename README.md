@@ -1,6 +1,7 @@
 # Custom Scripts for CRISPR Detection Pipeline
 
-This repository contains custom scripts developed as part of a bioinformatic pipeline for the identification and analysis of CRISPR arrays in metagenomic datasets (Specifically tested on Hymenoptera datasets)
+This repository contains custom scripts developed as part of a bioinformatic pipeline for the identification and analysis of CRISPR arrays in metagenomic datasets (Specifically tested on Hymenoptera datasets). They were crated in jupyter-hub as a Notebook with a bash kernel.
+
 
 ## Overview
 
