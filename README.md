@@ -9,9 +9,11 @@ The scripts provided here support various steps of the workflow, including:
  
 - handling and formatting of tool outputs  
 - extraction of CRISPR repeats and spacers  
-- filtering of results 
+- filtering of results
+- checking found arrays in Testdata
 
 These scripts were designed to complement existing tools (e.g. CRASS, MCAAT) and to facilitate benchmarking and evaluation of CRISPR detection approaches.
+The Notebooks serve as a summary for the programms, while each individual piece of code is in the Directory "Eigene_Programme".
 
 ## Usage
 
