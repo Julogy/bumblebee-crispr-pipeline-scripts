@@ -66,7 +66,7 @@ awk '{
             print "Group\\|" arr[1] "(\\||$)"
         }
     }
-' blacklisted_spacers.txt | sort -u > /home/jupyter-jspies/Groups.txt
+' blacklisted_spacers.txt | sort -u > /home/jupyter-jspies/Blasted_Groups.txt
 
 
 
@@ -74,7 +74,7 @@ awk '{
 
 #seqkit lauf zum filtern
 
-conda run -n seqkit_env seqkit grep -w 0 -v -r -f /home/jupyter-jspies/Groups.txt /home/jupyter-jspies/Ergebnisse/$input/repeats_und_spacer/mcaat_R1_und_R2.fasta > /home/jupyter-jspies/Ergebnisse/$input/BLAST/MCAAT/CRISPR_Blast_filtered_sequences.fasta
+conda run -n seqkit_env seqkit grep -w 0 -v -r -f /home/jupyter-jspies/Blasted_Groups.txt /home/jupyter-jspies/Ergebnisse/$input/repeats_und_spacer/mcaat_R1_und_R2.fasta > /home/jupyter-jspies/Ergebnisse/$input/BLAST/MCAAT/CRISPR_Blast_filtered_sequences.fasta
 
 
 

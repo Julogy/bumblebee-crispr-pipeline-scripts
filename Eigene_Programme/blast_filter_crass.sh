@@ -66,7 +66,7 @@ awk '{
             print "Group\\|" arr[1] "(\\||$)"
         }
     }
-' blacklisted_spacers.txt | sort -u > /home/jupyter-jspies/Groups.txt
+' blacklisted_spacers.txt | sort -u > /home/jupyter-jspies/Blasted_Groups.txt
 
 
 
