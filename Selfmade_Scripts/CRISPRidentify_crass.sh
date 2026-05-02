@@ -21,6 +21,7 @@ awk -F',' '
 
 find $input/CRISPRidentify/Crass/ -type f ! -name "Complete_summary.csv" -delete
 find $input/CRISPRidentify/Crass/ -type d -empty -delete
+rm -rf /home/jupyter-jspies/GitHub/CRISPRidentify/Identify_Temp*
 
 
 #Filter zu .fasta machen
