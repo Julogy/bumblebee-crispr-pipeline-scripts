@@ -25,7 +25,7 @@ rm -rf /home/jupyter-jspies/GitHub/CRISPRidentify/Identify_Temp*
 
 
 #Filter zu .fasta machen
-conda run -n seqkit_env seqkit grep -w 0 -r -f $input/Identified_Groups.txt $input/repeats_und_spacer/mcaat_R1_und_R2.fasta > $input/CRISPRidentify/MCAAAT/CRISPR_identified_sequences.fasta
+conda run -n seqkit_env seqkit grep -w 0 -r -f $input/Identified_Groups.txt $input/repeats_und_spacer/mcaat_R1_und_R2.fasta > $input/CRISPRidentify/MCAAT/CRISPR_identified_sequences.fasta
 
 
 #Vorbereitung für CRISPRclassify
