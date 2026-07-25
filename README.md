@@ -21,7 +21,7 @@ The scripts are intended to be used within the context of the full pipeline desc
 
 ## Associated Thesis
 
-Establishment of a Pipline for the Identification of CRISPR Loci in the Microbiome of Bumblebees
+(Establishment of a) Pipline for the Identification of CRISPR Loci in the Microbiome of Bumblebees
 
 ## Notes
 
