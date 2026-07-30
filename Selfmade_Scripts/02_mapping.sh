@@ -9,70 +9,70 @@ set -euo pipefail
 if [ "$#" -ne 3 ]; then
     echo ""
     echo "Usage:"
-    echo "./02_mapping.sh <lauf1|lauf2> <genome.mmi> <barcodeXX|all>"
+    echo "./02_mapping.sh <run1|run2> <genome.mmi> <barcodeXX|all>"
     echo ""
     echo "Beispiele:"
-    echo "./02_mapping.sh lauf1 /drives/HDD_22TB_DATA/HDD03_06T_SDE/jspies/Tom_Pipeline_Wildbiene1/genome/Bombus.mmi barcode01"
-    echo "./02_mapping.sh lauf2 /drives/HDD_22TB_DATA/HDD03_06T_SDE/jspies/Tom_Pipeline_Wildbiene1/genome/Bombus.mmi all"
+    echo "./02_mapping.sh run1 /path/to/genome/Bombus.mmi barcode01"
+    echo "./02_mapping.sh run2 /path/to/genome/Bombus.mmi all"
     exit 1
 fi
 
 ########################################
-# Parameter
+# Parameters
 ########################################
 
-LAUF=$1
+RUN=$1
 GENOME=$2
 BARCODE=$3
 
 ########################################
-# Conda initialisieren
+# Initialising Conda
 ########################################
 
 source "$(conda info --base)/etc/profile.d/conda.sh"
 
 ########################################
-# Einstellungen
+# Settings
 ########################################
 
 THREADS=20
 
 ########################################
-# Projektverzeichnis
+# Input
 ########################################
 
-BASE_INPUT="/drives/HDD_22TB_DATA/HDD03_06T_SDE/jspies/Sequenzierdaten"
+BASE_INPUT="/path/to/SequencingData"
 
-case "${LAUF}" in
-    lauf1)
-        INPUT_DIR="${BASE_INPUT}/Lauf_1"
-        PROJECT_DIR="/drives/HDD_22TB_DATA/HDD03_06T_SDE/jspies/Tom_Pipeline_Wildbiene1"
+case "${RUN}" in
+    run1)
+        INPUT_DIR="${BASE_INPUT}/Run_1"
+        PROJECT_DIR="/path/to/Project1"
         ;;
-    lauf2)
-        INPUT_DIR="${BASE_INPUT}/Lauf_2"
-        PROJECT_DIR="/drives/HDD_22TB_DATA/HDD03_06T_SDE/jspies/Tom_Pipeline_Wildbiene2"
+    run2)
+        INPUT_DIR="${BASE_INPUT}/Run_2"
+        PROJECT_DIR="/path/to/Project2"
         ;;
     *)
-        echo "Ungültiger Lauf."
+        echo "invalid run."
         exit 1
         ;;
 esac
 
 ########################################
-# Ordner
+# Output
 ########################################
 
 BAM_DIR="${PROJECT_DIR}/bams"
 LOG_DIR="${PROJECT_DIR}/logs"
 
 ########################################
-# Referenz prüfen
+# Reference check
 ########################################
 
 if [[ ! -f "${GENOME}" ]]; then
     echo ""
-    echo "FEHLER:"
-    echo "Referenz nicht gefunden:"
+    echo "ERROR:"
+    echo "Reference not found:"
     echo "${GENOME}"
     exit 1
 fi
@@ -93,15 +93,15 @@ run_mapping() {
 
     if [[ ${#FASTQ_FILES[@]} -eq 0 ]]; then
         echo ""
-        echo "FEHLER:"
-        echo "Keine FASTQ-Datei gefunden."
+        echo "ERROR:"
+        echo "No FASTQ found."
         return 1
     fi
 
     if [[ ${#FASTQ_FILES[@]} -gt 1 ]]; then
         echo ""
-        echo "FEHLER:"
-        echo "Mehr als eine FASTQ-Datei gefunden:"
+        echo "ERROR:"
+        echo "More than one FASTQ found:"
         printf '%s\n' "${FASTQ_FILES[@]}"
         return 1
     fi
@@ -113,17 +113,17 @@ run_mapping() {
     FLAGSTAT="${LOG_DIR}/${SAMPLE}_flagstat.txt"
 
     if [[ ! -f "${FASTQ}" ]]; then
-        echo "FEHLT: ${FASTQ}"
+        echo "MISSING: ${FASTQ}"
         return
     fi
 
     echo ""
     echo "======================================="
-    echo "STARTE ${SAMPLE}"
+    echo "START ${SAMPLE}"
     echo "======================================="
 
 ########################################
-# Mapping und Sortieren
+# Mapping and Sorting
 ########################################
 
     SAM_FILE="${BAM_DIR}/${SAMPLE}.sam"
@@ -139,7 +139,7 @@ run_mapping() {
         "${FASTQ}" \
         > "${SAM_FILE}"
 
-    # Falls am Ende eine leere Zeile existiert, entfernen
+    # sometimes the last line was empty
     if [[ -z "$(tail -n 1 "${SAM_FILE}")" ]]; then
         sed -i '${/^$/d;}' "${SAM_FILE}"
     fi
@@ -154,7 +154,7 @@ run_mapping() {
     rm -f "${SAM_FILE}"
     
 ########################################
-# BAM prüfen
+# BAM Check
 ########################################
 
     echo "===== BAM CHECK ====="
@@ -184,7 +184,7 @@ run_mapping() {
         > "${FLAGSTAT}"
 
 ########################################
-# Zusammenfassung
+# Summary
 ########################################
 
     MAPPED=$(grep " mapped (" "${FLAGSTAT}" | head -1)
@@ -195,12 +195,12 @@ run_mapping() {
         | tee -a "${LOG_DIR}/mapping_summary.txt"
 
     echo ""
-    echo "===== ${SAMPLE} FERTIG ====="
+    echo "===== ${SAMPLE} Done ====="
 
 }
 
 ########################################
-# Samples auswählen
+# choose Samples 
 ########################################
 
 if [[ "${BARCODE}" == "all" ]]; then
@@ -222,10 +222,10 @@ else
 fi
 
 ########################################
-# Fertig
+# Done
 ########################################
 
 echo ""
 echo "========================================="
-echo "PIPELINE FERTIG"
+echo "PIPELINE Done"
 echo "========================================="

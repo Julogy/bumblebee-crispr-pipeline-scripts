@@ -6,80 +6,85 @@ set -euo pipefail
 # Usage
 ########################################
 
-if [ "$#" -ne 2 ]; then
-    echo ""
+if [ "$#" -lt 3 ]; then
     echo "Usage:"
-    echo "./04_kraken2.sh <lauf1|lauf2> <barcodeXX|all>"
+    echo "./04_kraken2.sh <run1|run2> <barcodeXX|all> <db1> [db2] [db3] ..."
     echo ""
     echo "Beispiele:"
-    echo "./04_kraken2.sh lauf1 barcode13"
-    echo "./04_kraken2.sh lauf2 barcode05"
-    echo "./04_kraken2.sh lauf1 all"
+    echo "./04_kraken2.sh run1 barcode13 bee_db"
+    echo "./04_kraken2.sh run2 barcode05 beecornis_db lignaria_db"
+    echo "./04_kraken2.sh run1 all kraken2-standard-db"
     exit 1
 fi
 
 ########################################
-# Parameter
+# Parameters
 ########################################
 
-LAUF=$1
+RUN=$1
 BARCODE=$2
+shift 2
+
+DB_NAMES=("$@")
 
 ########################################
-# Conda initialisieren
+# Initialising Conda
 ########################################
 
 source "$(conda info --base)/etc/profile.d/conda.sh"
 
 ########################################
-# Einstellungen
+# Settings
 ########################################
 
 THREADS=20
 
 ########################################
-# Projektverzeichnis
+# Input
 ########################################
 
-BASE_INPUT="/drives/HDD_22TB_DATA/HDD03_06T_SDE/jspies/Sequenzierdaten"
+BASE_INPUT="/path/to/SequencingData"
 
-case "${LAUF}" in
-    lauf1)
-        INPUT_DIR="${BASE_INPUT}/Lauf_1"
-        PROJECT_DIR="/drives/HDD_22TB_DATA/HDD03_06T_SDE/jspies/Tom_Pipeline_Wildbiene1"
+case "${RUN}" in
+    run1)
+        INPUT_DIR="${BASE_INPUT}/Run_1"
+        PROJECT_DIR="/path/to/Project1"
         ;;
-    lauf2)
-        INPUT_DIR="${BASE_INPUT}/Lauf_2"
-        PROJECT_DIR="/drives/HDD_22TB_DATA/HDD03_06T_SDE/jspies/Tom_Pipeline_Wildbiene2"
+    run2)
+        INPUT_DIR="${BASE_INPUT}/Run_2"
+        PROJECT_DIR="/path/to/Project2"
         ;;
     *)
-        echo "Ungültiger Lauf."
+        echo "invalid run."
         exit 1
         ;;
 esac
 
 ########################################
-# Kraken Datenbank
+# Kraken2 Database
 ########################################
 
-KRAKEN_DB1="/drives/HDD_22TB_DATA/HDD03_06T_SDE/jspies/kraken2-standard-db"
-KRAKEN_DB2="/drives/HDD_22TB_DATA/HDD03_06T_SDE/jspies/bee_db"
+DB_BASE="/drives/HDD_22TB_DATA/HDD03_06T_SDE/jspies"
 
-KRAKEN_DB="${KRAKEN_DB1},${KRAKEN_DB2}"
+SELECTED_DBS=()
 
-for DB in "${KRAKEN_DB1}" "${KRAKEN_DB2}"
+for DB in "${DB_NAMES[@]}"
 do
-    if [[ ! -d "${DB}" ]]; then
-        echo ""
-        echo "FEHLER:"
-        echo "Kraken2-Datenbank nicht gefunden:"
-        echo "${DB}"
+    DB_PATH="${DB_BASE}/${DB}"
+
+    if [[ ! -d "${DB_PATH}" ]]; then
+        echo "Database not found:"
+        echo "${DB_PATH}"
         exit 1
     fi
+
+    SELECTED_DBS+=("${DB_PATH}")
 done
 
+KRAKEN_DB=$(IFS=, ; echo "${SELECTED_DBS[*]}")
+
 ########################################
-# Ordner
+# Output
 ########################################
 
 REPORT_DIR="${PROJECT_DIR}/kraken_reports"
@@ -106,13 +111,13 @@ run_kraken() {
     RESULT="${RESULT_DIR}/${SAMPLE}_${TYPE}.kraken2"
 
     if [[ ! -f "${FASTQ}" ]]; then
-        echo "FEHLT: ${FASTQ}"
+        echo "MISSING: ${FASTQ}"
         return 1
     fi
 
     echo ""
     echo "======================================="
-    echo "STARTE ${SAMPLE} (${TYPE})"
+    echo "START ${SAMPLE} (${TYPE})"
     echo "======================================="
 
 ########################################
@@ -121,24 +126,40 @@ run_kraken() {
 
     echo "===== KRAKEN2 (${TYPE}) ====="
 
+if [[ ${#SELECTED_DBS[@]} -eq 1 ]]
+then
+
+    conda run -n kraken2_env kraken2 \
+        --db "${SELECTED_DBS[0]}" \
+        --threads ${THREADS} \
+        --report "${REPORT}" \
+        --report-minimizer-data \
+        --gzip-compressed \
+        "${FASTQ}" \
+        > "${RESULT}"
+
+else
+
     conda run -n kraken2_env k2 classify \
-    --db "${KRAKEN_DB}" \
-    --threads ${THREADS} \
-    --report "${REPORT}" \
-    "${FASTQ}" \
-    > "${RESULT}"
+        --db "${KRAKEN_DB}" \
+        --threads ${THREADS} \
+        --report "${REPORT}" \
+        "${FASTQ}" \
+        > "${RESULT}"
+
+fi
 
 ########################################
-# Kontrolle
+# Controll
 ########################################
 
     if [[ ! -s "${RESULT}" ]]; then
-        echo "FEHLER: Kraken2-Ausgabe wurde nicht erstellt."
+        echo "ERROR: Kraken2-Output was not created."
         return 1
     fi
 
 ########################################
-# Statistik
+# Statistics
 ########################################
 
     CLASSIFIED=$(grep "^C" "${RESULT}" | wc -l)
@@ -148,12 +169,12 @@ run_kraken() {
         | tee -a "${LOG_DIR}/kraken_summary.txt"
 
     echo ""
-    echo "===== ${SAMPLE} (${TYPE}) FERTIG ====="
+    echo "===== ${SAMPLE} (${TYPE}) Done ====="
 
 }
 
 ########################################
-# Barcode auswählen
+# Choose Barcode
 ########################################
 
 if [[ "${BARCODE}" == "all" ]]; then
@@ -178,10 +199,10 @@ else
 fi
 
 ########################################
-# Fertig
+# Done
 ########################################
 
 echo ""
 echo "========================================="
-echo "PIPELINE FERTIG"
+echo "PIPELINE DONE"
 echo "========================================="

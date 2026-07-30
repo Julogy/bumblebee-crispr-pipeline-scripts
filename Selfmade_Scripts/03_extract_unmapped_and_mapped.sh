@@ -9,57 +9,57 @@ set -euo pipefail
 if [ "$#" -ne 2 ]; then
     echo ""
     echo "Usage:"
-    echo "./03_extract_unmapped.sh <lauf1|lauf2> <barcodeXX|all>"
+    echo "./03_extract_unmapped.sh <run1|run2> <barcodeXX|all>"
     echo ""
     echo "Beispiele:"
-    echo "./03_extract_unmapped.sh lauf1 barcode13"
-    echo "./03_extract_unmapped.sh lauf2 barcode05"
-    echo "./03_extract_unmapped.sh lauf1 all"
+    echo "./03_extract_unmapped.sh run1 barcode13"
+    echo "./03_extract_unmapped.sh run2 barcode05"
+    echo "./03_extract_unmapped.sh run1 all"
     exit 1
 fi
 
 ########################################
-# Parameter
+# Parameters
 ########################################
 
-LAUF=$1
+RUN=$1
 BARCODE=$2
 
 ########################################
-# Conda initialisieren
+# Initialising Conda
 ########################################
 
 source "$(conda info --base)/etc/profile.d/conda.sh"
 
 ########################################
-# Einstellungen
+# Settings
 ########################################
 
 THREADS=20
 
 ########################################
-# Projektverzeichnis
+# Input
 ########################################
 
-BASE_INPUT="/drives/HDD_22TB_DATA/HDD03_06T_SDE/jspies/Sequenzierdaten"
+BASE_INPUT="/path/to/SequencingData"
 
-case "${LAUF}" in
-    lauf1)
-        INPUT_DIR="${BASE_INPUT}/Lauf_1"
-        PROJECT_DIR="/drives/HDD_22TB_DATA/HDD03_06T_SDE/jspies/Tom_Pipeline_Wildbiene1"
+case "${RUN}" in
+    run1)
+        INPUT_DIR="${BASE_INPUT}/Run_1"
+        PROJECT_DIR="/path/to/Project1"
         ;;
-    lauf2)
-        INPUT_DIR="${BASE_INPUT}/Lauf_2"
-        PROJECT_DIR="/drives/HDD_22TB_DATA/HDD03_06T_SDE/jspies/Tom_Pipeline_Wildbiene2"
+    run2)
+        INPUT_DIR="${BASE_INPUT}/Run_2"
+        PROJECT_DIR="/path/to/Project2"
         ;;
     *)
-        echo "Ungültiger Lauf."
+        echo "invalid run."
         exit 1
         ;;
 esac
 
 ########################################
-# Ordner
+# Output
 ########################################
 
 BAM_DIR="${PROJECT_DIR}/bams"
@@ -86,13 +86,13 @@ extract_unmapped() {
     MAPPED_FASTQ="${MAPPED_FASTQ_DIR}/${SAMPLE}_mapped.fastq"
 
     if [[ ! -f "${SORTED_BAM}" ]]; then
-        echo "FEHLT: ${SORTED_BAM}"
+        echo "MISSING: ${SORTED_BAM}"
         return
     fi
 
     echo ""
     echo "======================================="
-    echo "STARTE ${SAMPLE}"
+    echo "START ${SAMPLE}"
     echo "======================================="
 
 ########################################
@@ -124,7 +124,7 @@ extract_unmapped() {
         -o "${MAPPED_BAM}"
 
 ########################################
-# Anzahl Reads
+# Read Count
 ########################################
 
     echo "===== READ COUNT ====="
@@ -179,26 +179,26 @@ extract_unmapped() {
     mv "${MAPPED_FASTQ}.fixed.gz" "${MAPPED_FASTQ}.gz"
 
 ########################################
-# Kontrolle
+# Controll
 ########################################
 
     if [[ ! -s "${UNMAPPED_FASTQ}.gz" ]]; then
-        echo "FEHLER: UNMAPPED FASTQ wurde nicht erstellt."
+        echo "ERROR: UNMAPPED FASTQ was not created."
         return 1
     fi
 
     if [[ ! -s "${MAPPED_FASTQ}.gz" ]]; then
-        echo "FEHLER: MAPPED FASTQ wurde nicht erstellt."
+        echo "ERROR: MAPPED FASTQ was not created."
         return 1
     fi
 
     echo ""
-    echo "===== ${SAMPLE} FERTIG ====="
+    echo "===== ${SAMPLE} Done ====="
 
 }
 
 ########################################
-# Barcode auswählen
+# Choose Barcode
 ########################################
 
 if [[ "${BARCODE}" == "all" ]]; then
@@ -221,10 +221,10 @@ else
 fi
 
 ########################################
-# Fertig
+# Done
 ########################################
 
 echo ""
 echo "========================================="
-echo "PIPELINE FERTIG"
+echo "PIPELINE Done"
 echo "========================================="

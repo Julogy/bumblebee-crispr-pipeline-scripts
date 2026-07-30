@@ -7,39 +7,45 @@
 if [ "$#" -ne 2 ]; then
     echo ""
     echo "Usage:"
-    echo "./kraken_zusammenfassung.sh <lauf1|lauf2> <single|multi>"
+    echo "./kraken_zusammenfassung.sh <run1|run2> <single|multi>"
     echo ""
     echo "Beispiele:"
-    echo "./kraken_zusammenfassung.sh lauf1 single"
-    echo "./kraken_zusammenfassung.sh lauf2 multi"
+    echo "./kraken_zusammenfassung.sh run1 single"
+    echo "./kraken_zusammenfassung.sh run2 multi"
     exit 1
 fi
 
 ########################################
-# Parameter
+# Parameters
 ########################################
 
-LAUF=$1
+RUN=$1
 MODE=$2
 
 if [[ "$MODE" != "single" && "$MODE" != "multi" ]]; then
-    echo "Ungültiger Modus: $MODE"
-    echo "Erlaubt sind: single oder multi"
+    echo "Invalid Mode: $MODE"
+    echo "Valid Modes: single or multi"
     exit 1
 fi
 
-case "${LAUF}" in
-    lauf1)
-        REPORT_DIR="/drives/HDD_22TB_DATA/HDD03_06T_SDE/jspies/Tom_Pipeline_Wildbiene1/kraken_reports"
+case "${RUN}" in
+    run1)
+        INPUT_DIR="${BASE_INPUT}/Run_1"
+        PROJECT_DIR="/path/to/Project1"
         ;;
-    lauf2)
-        REPORT_DIR="/drives/HDD_22TB_DATA/HDD03_06T_SDE/jspies/Tom_Pipeline_Wildbiene2/kraken_reports"
+    run2)
+        INPUT_DIR="${BASE_INPUT}/Run_2"
+        PROJECT_DIR="/path/to/Project2"
         ;;
     *)
-        echo "Ungültiger Lauf."
+        echo "invalid run."
         exit 1
         ;;
 esac
+
+########################################
+# Output
+########################################
 
 OUTFILE_ALL="${REPORT_DIR}/kraken_summary.txt"
 OUTFILE_MAPPED="${REPORT_DIR}/kraken_summary_mapped.txt"
@@ -67,7 +73,7 @@ create_summary() {
     echo "" >> "$OUTFILE"
 
     #############################################
-    # Gesamtreads
+    # Total Reads
     #############################################
 
     if [[ "$MODE" == "single" ]]; then
@@ -99,10 +105,10 @@ create_summary() {
     echo "" >> "$OUTFILE"
 
     #############################################
-    # Organismen
+    # Organisms
     #############################################
 
-    echo "Organismen" >> "$OUTFILE"
+    echo "Organisms" >> "$OUTFILE"
     echo "--------------------------------------------------" >> "$OUTFILE"
 
     if [[ "$MODE" == "single" ]]; then
@@ -139,7 +145,7 @@ create_summary() {
 }
 
 ########################################
-# Hauptschleife
+# Main  loop
 ########################################
 
 for BARCODE in $(ls "$REPORT_DIR"/*_mapped.kreport | sed 's/_mapped.kreport//' | xargs -n1 basename | sort)
@@ -159,8 +165,8 @@ do
 
 done
 
-echo "Fertig."
-echo "Erstellt:"
+echo "DONE."
+echo "Created:"
 echo "  $OUTFILE_ALL"
 echo "  $OUTFILE_MAPPED"
 echo "  $OUTFILE_UNMAPPED"
