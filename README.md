@@ -3,17 +3,18 @@
 This repository contains custom scripts developed as part of a bioinformatic pipeline for the identification and analysis of CRISPR arrays in metagenomic datasets (Specifically tested on Hymenoptera datasets). They were crated in jupyter-hub as a Notebook with a bash kernel.
 
 
+
 ## Overview
 
 The scripts provided here support various steps of the workflow, including:
- 
-- handling and formatting of tool outputs  
-- extraction of CRISPR repeats and spacers  
-- filtering of results
-- checking found arrays in Testdata
+
+* handling and formatting of tool outputs
+* extraction of CRISPR repeats and spacers
+* filtering of results
+* checking found arrays in Testdata
 
 These scripts were designed to complement existing tools (e.g. CRASS, MCAAT) and to facilitate benchmarking and evaluation of CRISPR detection approaches.
-The Notebooks serve as a summary for the programms, while each individual piece of code is in the Directory "Eigene_Programme".
+The Notebooks serve as a summary for the programms, while each individual piece of code is in the Directory "Eigene\_Programme".
 
 ## Usage
 
@@ -21,13 +22,14 @@ The scripts are intended to be used within the context of the full pipeline desc
 
 ## Associated Thesis
 
-(Establishment of a) Pipline for the Identification of CRISPR Loci in the Microbiome of Bumblebees
+(Establishment of a Pipline for the) Identification of CRISPR Loci in the Microbiome of Bumblebees
 
 ## Notes
 
-- The code is provided as-is and was developed for research purposes.  
-- Some scripts may require adaptation for use in other datasets or environments.  
+* The code is provided as-is and was developed for research purposes.
+* Some scripts may require adaptation for use in other datasets or environments.
 
 ## Author
 
 Julian Spies
+
