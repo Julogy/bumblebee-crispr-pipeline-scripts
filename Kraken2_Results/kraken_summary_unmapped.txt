@@ -1,0 +1,1302 @@
+==================================================
+barcode13
+==================================================
+
+Total reads  : 28286
+Unclassified : 10780 (38.11%)
+Classified   : 17506 (61.89%)
+
+Organismen
+--------------------------------------------------
+    9803  Microbulbifer sp. SSSA002
+    1902  Osmia cornuta
+     896  Prunus mume
+     407  Photobacterium leiognathi
+     296  Prunus persica
+     221  Escherichia coli
+     197  Prunus dulcis
+     116  Enterovibrio norvegicus
+     107  Klebsiella pneumoniae
+      69  Homo sapiens
+      15  Salmonella enterica
+      15  Osmia lignaria
+      12  Malus domestica
+      10  Streptomyces laculatispora
+      10  Osmia bicornis
+       9  Staphylococcus aureus
+       9  Corylus avellana
+       7  Pyrus communis
+       7  Lycium ferocissimum
+       7  Camellia sinensis
+       6  Lactuca virosa
+       6  Cryptomeria japonica
+       6  Asparagus officinalis
+       5  Streptomyces sp. NBC_01167
+       5  Musa acuminata
+       5  Erwinia sp. LJJL01
+       5  Elizabethkingia anophelis
+       5  Cannabis sativa
+       4  Ziziphus jujuba
+       4  Papaver somniferum
+       4  Humulus lupulus
+       4  Flavobacterium faecale
+       4  Dioscorea cayenensis
+       4  Cynara cardunculus
+       4  Cajanus cajan
+       4  Apium graveolens
+       4  Alnus glutinosa
+       3  Vigna unguiculata
+       3  Vibrio cholerae
+       3  Solanum stenotomum
+       3  Rutidosis leptorrhynchoides
+       3  Ricinus communis
+       3  Rhododendron vialii
+       3  Quercus lobata
+       3  Nicotiana tabacum
+       3  Lactuca saligna
+       3  Hevea brasiliensis
+       3  Francisella halioticida
+       3  Fragaria vesca
+       3  Escherichia albertii
+       3  Enterococcus faecalis
+       3  Cucumis melo
+       3  Capsicum annuum
+       2  Wolffia australiana
+       2  Tripterygium wilfordii
+       2  Telopea speciosissima
+       2  Spinacia oleracea
+       2  Solanum lycopersicum
+       2  Rhodococcus jostii
+       2  Quercus robur
+       2  Primulina eburnea
+       2  Populus trichocarpa
+       2  Malania oleifera
+       2  Magnolia sinica
+       2  Lycium barbarum
+       2  Juglans regia
+       2  Juglans microcarpa x Juglans regia
+       2  Gossypium raimondii
+       2  Gossypium arboreum
+       2  Elaeis guineensis
+       2  Cucumis sativus
+       2  Castanea sativa
+       2  Carya illinoinensis
+       1  Zingiber officinale
+       1  Zea mays
+       1  Vitis riparia
+       1  Vicia villosa
+       1  Vibrio alginolyticus
+       1  Typha latifolia
+       1  Triticum dicoccoides
+       1  Thalassobellus suaedae
+       1  Streptomyces sp. NHF165
+       1  Solanum pennellii
+       1  Sesamum indicum
+       1  Saccharomycodes ludwigii
+       1  Ruania alkalisoli
+       1  Rosa rugosa
+       1  Rosa chinensis
+       1  Rhodamnia argentea
+       1  Rhizophagus irregularis
+       1  Punica granatum
+       1  Pseudomonas sp. KNUC1026
+       1  Pseudomonas aeruginosa
+       1  Primulina tabacum
+       1  Primulina huaijiensis
+       1  Populus alba
+       1  Physcomitrium patens
+       1  Peribacillus asahii
+       1  Panicum virgatum
+       1  Paenibacillus lautus
+       1  Oryzobacter telluris
+       1  Nicotiana sylvestris
+       1  Miscanthus floridulus
+       1  Medicago truncatula
+       1  Medicago sativa
+       1  Manihot esculenta
+       1  Mangifera indica
+       1  Malus sylvestris
+       1  Macadamia integrifolia
+       1  Lupinus angustifolius
+       1  Limosilactobacillus reuteri
+       1  Lathyrus oleraceus
+       1  Lactuca serriola
+       1  Lactuca sativa
+       1  Lactiplantibacillus plantarum
+       1  Hordeum vulgare
+       1  Henckelia pumila
+       1  Helianthus annuus
+       1  Glycine soja
+       1  Glycine max
+       1  Flavobacterium sp. CECT 9288
+       1  Eucalyptus grandis
+       1  Escherichia sp. KS167_9B
+       1  Erwinia sp. HDF1-3R
+       1  Enterococcus faecium
+       1  Ectothiorhodospira sp. BSL-9
+       1  Cutibacterium acnes
+       1  Cucurbita pepo
+       1  Coffea eugenioides
+       1  Clostridium sp. X
+       1  Chenopodium album
+       1  Carex rostrata
+       1  Brassica napus
+       1  Benincasa hispida
+       1  Bartonella vinsonii
+       1  Bacillus phage SP-10
+       1  Argentina anserina
+       1  Arachis stenosperma
+       1  Ananas comosus
+       1  Amaranthus tricolor
+       1  Actinidia eriantha
+       1  Acinetobacter towneri
+
+==================================================
+barcode14
+==================================================
+
+Total reads  : 29685
+Unclassified : 12247 (41.26%)
+Classified   : 17438 (58.74%)
+
+Organismen
+--------------------------------------------------
+    8142  Microbulbifer sp. SSSA002
+    2824  Osmia cornuta
+    1700  Prunus mume
+     463  Prunus persica
+     370  Prunus dulcis
+     347  Photobacterium leiognathi
+     200  Escherichia coli
+     101  Klebsiella pneumoniae
+      75  Homo sapiens
+      63  Enterovibrio norvegicus
+      20  Lactuca virosa
+      16  Osmia bicornis
+      16  Malus domestica
+      14  Alnus glutinosa
+      13  Salmonella enterica
+      13  Elizabethkingia anophelis
+      11  Musa acuminata
+      10  Humulus lupulus
+       9  Streptomyces sp. NBC_01167
+       9  Staphylococcus aureus
+       9  Flavobacterium faecale
+       8  Pyrus communis
+       8  Osmia lignaria
+       6  Olea europaea
+       6  Cucumis melo
+       5  Ziziphus jujuba
+       5  Lycium ferocissimum
+       5  Eucalyptus grandis
+       5  Corylus avellana
+       5  Apium graveolens
+       4  Nicotiana attenuata
+       4  Gossypium arboreum
+       4  Cannabis sativa
+       4  Camellia sinensis
+       3  Tripterygium wilfordii
+       3  Streptomyces laculatispora
+       3  Spinacia oleracea
+       3  Solanum pennellii
+       3  Rosa rugosa
+       3  Primulina huaijiensis
+       3  Impatiens glandulifera
+       3  Helianthus annuus
+       3  Euphorbia lathyris
+       3  Escherichia albertii
+       3  Erwinia sp. LJJL01
+       3  Enterococcus faecium
+       3  Cucumis sativus
+       3  Cryptomeria japonica
+       3  Chenopodium album
+       3  Actinidia eriantha
+       2  Vigna unguiculata
+       2  Vibrio cholerae
+       2  Solanum lycopersicum
+       2  Rutidosis leptorrhynchoides
+       2  Ricinus communis
+       2  Rhodococcus jostii
+       2  Quercus robur
+       2  Quercus lobata
+       2  Primulina tabacum
+       2  Populus trichocarpa
+       2  Oryza sativa
+       2  Malus sylvestris
+       2  Malania oleifera
+       2  Juglans microcarpa x Juglans regia
+       2  Hordeum vulgare
+       2  Fragaria vesca
+       2  Erigeron canadensis
+       2  Cynara cardunculus
+       2  Cucurbita pepo
+       2  Coffea eugenioides
+       2  Capsicum annuum
+       2  Camelina sativa
+       2  Benincasa hispida
+       1  Woeseia oceani
+       1  Vitis riparia
+       1  Viridibacillus arvi
+       1  Vigna radiata
+       1  Vigna angularis
+       1  Vicia villosa
+       1  Vibrio tapetis
+       1  Typha latifolia
+       1  Triticum aestivum
+       1  Trifolium pratense
+       1  Theobroma cacao
+       1  Telopea speciosissima
+       1  Sugiyamaella lignohabitans
+       1  Streptomyces sp. NBC_00525
+       1  Solanum dulcamara
+       1  Silene latifolia
+       1  Salmonella sp.
+       1  Rhododendron vialii
+       1  Raphanus sativus
+       1  Punica granatum
+       1  Pseudomonas sp. AA-38
+       1  Priestia aryabhattai
+       1  Populus nigra
+       1  Photobacterium profundum
+       1  Phoenix dactylifera
+       1  Parabacteroides goldsteinii
+       1  Papaver somniferum
+       1  Paenibacillus lautus
+       1  Oryza brachyantha
+       1  Mucilaginibacter robiniae
+       1  Miscanthus floridulus
+       1  Methylophaga thalassica
+       1  Megamonas hypermegale
+       1  Medicago sativa
+       1  Manihot esculenta
+       1  Mangifera indica
+       1  Lupinus angustifolius
+       1  Lotus japonicus
+       1  Lathyrus oleraceus
+       1  Juglans regia
+       1  Ipomoea triloba
+       1  Halothiobacillus sp. DCM-1
+       1  Gossypium raimondii
+       1  Glycine soja
+       1  Glycine max
+       1  Enterococcus faecalis
+       1  Dictyostelium discoideum
+       1  Daucus carota
+       1  Curcuma longa
+       1  Cloacibacillus evryensis
+       1  Carya illinoinensis
+       1  Asparagus officinalis
+       1  Argentina anserina
+       1  Arachis duranensis
+       1  Ananas comosus
+       1  Acidovorax sp.
+
+==================================================
+barcode15
+==================================================
+
+Total reads  : 50329
+Unclassified : 20558 (40.85%)
+Classified   : 29771 (59.15%)
+
+Organismen
+--------------------------------------------------
+    3490  Osmia cornuta
+    1663  Photobacterium leiognathi
+    1207  Prunus mume
+     979  Microbulbifer sp. SSSA002
+     563  Escherichia coli
+     468  Prunus persica
+     451  Salvia splendens
+     391  Populus trichocarpa
+     344  Populus alba
+     301  Prunus dulcis
+     233  Populus nigra
+     210  Klebsiella pneumoniae
+     188  Enterovibrio norvegicus
+     114  Streptomyces sp. NBC_01167
+     112  Paenibacillus lautus
+      78  Homo sapiens
+      39  Salmonella enterica
+      35  Streptomyces laculatispora
+      32  Staphylococcus aureus
+      27  Alnus glutinosa
+      24  Salmonella sp.
+      21  Osmia lignaria
+      20  Corylus avellana
+      19  Capsicum annuum
+      18  Enterococcus faecalis
+      17  Malus domestica
+      17  Camellia sinensis
+      16  Osmia bicornis
+      16  Elizabethkingia anophelis
+      15  Cryptomeria japonica
+      14  Humulus lupulus
+      13  Lactuca virosa
+      13  Apium graveolens
+      12  Malus sylvestris
+      11  Lathyrus oleraceus
+      10  Vicia villosa
+      10  Gossypium arboreum
+       9  Vibrio cholerae
+       9  Rutidosis leptorrhynchoides
+       9  Pyrus communis
+       9  Hevea brasiliensis
+       9  Helianthus annuus
+       8  Ziziphus jujuba
+       8  Vibrio quintilis
+       8  Musa acuminata
+       8  Malania oleifera
+       8  Ipomoea triloba
+       8  Coffea arabica
+       8  Benincasa hispida
+       7  Pseudomonas aeruginosa
+       7  Olea europaea
+       7  Lycium barbarum
+       7  Cajanus cajan
+       6  Ricinus communis
+       6  Papaver somniferum
+       6  Nicotiana tabacum
+       6  Manihot esculenta
+       6  Lactuca sativa
+       6  Lactuca saligna
+       6  Juglans regia
+       6  Impatiens glandulifera
+       6  Gossypium hirsutum
+       6  Flavobacterium faecale
+       6  Cucurbita pepo
+       6  Castanea sativa
+       6  Brassica napus
+       6  Actinidia eriantha
+       5  Vitis vinifera
+       5  Vibrio alginolyticus
+       5  Telopea speciosissima
+       5  Quercus lobata
+       5  Nicotiana attenuata
+       5  Medicago sativa
+       5  Magnolia sinica
+       5  Lotus japonicus
+       5  Fragaria vesca
+       5  Cucumis melo
+       5  Carya illinoinensis
+       5  Cannabis sativa
+       4  Zingiber officinale
+       4  Vitis riparia
+       4  Vigna unguiculata
+       4  Theobroma cacao
+       4  Solanum lycopersicum
+       4  Solanum dulcamara
+       4  Silene latifolia
+       4  Sesamum indicum
+       4  Rhododendron vialii
+       4  Pseudomonas fluorescens
+       4  Primulina eburnea
+       4  Phragmites australis
+       4  Phoenix dactylifera
+       4  Lupinus angustifolius
+       4  Hordeum vulgare
+       4  Henckelia pumila
+       4  Gossypium raimondii
+       4  Dioscorea cayenensis
+       4  Cynara cardunculus
+       4  Cicer arietinum
+       4  Camelina sativa
+       4  Arachis hypogaea
+       4  Amaranthus tricolor
+       3  Vigna radiata
+       3  Vigna angularis
+       3  Triticum dicoccoides
+       3  Trifolium pratense
+       3  Streptomyces sp. NBC_00525
+       3  Spinacia oleracea
+       3  Solanum pennellii
+       3  Rosa chinensis
+       3  Punica granatum
+       3  Nicotiana tomentosiformis
+       3  Mercurialis annua
+       3  Mangifera indica
+       3  Lycium ferocissimum
+       3  Euphorbia lathyris
+       3  Escherichia albertii
+       3  Erwinia sp. LJJL01
+       3  Elaeis guineensis
+       3  Diospyros lotus
+       3  Daucus carota
+       3  Curcuma longa
+       3  Coffea eugenioides
+       3  Asparagus officinalis
+       2  Typha latifolia
+       2  Typha angustifolia
+       2  Triticum aestivum
+       2  Spiroplasma endosymbiont of Zeiraphera isertana
+       2  Spiroplasma endosymbiont of Tiphia femorata
+       2  Spiroplasma endosymbiont of Melieria omissa
+       2  Spiroplasma endosymbiont of Dasysyrphus albostriatus
+       2  Rosa rugosa
+       2  Rhodamnia argentea
+       2  Primulina tabacum
+       2  Primulina huaijiensis
+       2  Physcomitrium patens
+       2  Phaseolus vulgaris
+       2  Panicum virgatum
+       2  Paenibacillus sp. FSL F4-0100
+       2  Nymphaea colorata
+       2  Miscanthus floridulus
+       2  Medicago truncatula
+       2  Lolium rigidum
+       2  Lolium perenne
+       2  Lactuca serriola
+       2  Juglans microcarpa x Juglans regia
+       2  Erigeron canadensis
+       2  Colwellia psychrerythraea
+       2  Citrus sinensis
+       2  Chenopodium album
+       2  Buchnera aphidicola
+       2  Bernardetia sp. MNP-M8
+       2  Arachis stenosperma
+       2  Arabidopsis thaliana
+       2  Ananas comosus
+       1  Zea mays
+       1  Yersinia intermedia
+       1  Xylanibacter ruminicola
+       1  Vagococcus penaei
+       1  Vagococcus lutrae
+       1  uncultured Desulfobacter sp.
+       1  Triticum urartu
+       1  Trichomonas vaginalis
+       1  Thiomicrorhabdus immobilis
+       1  Thalassotalea fonticola
+       1  Thalassotalea aquiviva
+       1  Thalassomonas viridans
+       1  Terrisporobacter hibernicus
+       1  Talaromyces rugulosus
+       1  Synechococcus sp. RS9907
+       1  Staphylococcus pseudoxylosus
+       1  Staphylococcus haemolyticus
+       1  Staphylococcus epidermidis
+       1  Spiroplasma endosymbiont of Polydrusus pterygomalis
+       1  Spiroplasma endosymbiont of Notiophilus biguttatus
+       1  Spiroplasma endosymbiont of Nomada rufipes
+       1  Spiroplasma endosymbiont of Nomada ruficornis
+       1  Spiroplasma endosymbiont of Lasioglossum malachurum
+       1  Spiroplasma endosymbiont of Andrena trimmerana
+       1  Spiroplasma diminutum
+       1  Setaria viridis
+       1  Salvia miltiorrhiza
+       1  Salinimonas sediminis
+       1  Saccharomyces cerevisiae
+       1  Rhodococcus jostii
+       1  Rhizophagus irregularis
+       1  Quercus robur
+       1  Psychromicrobium lacuslunae
+       1  Psychroflexus torquis
+       1  Pseudooceanicola sp. DL12
+       1  Pseudomonas sp. JL23
+       1  Pseudalkalibacillus sp. Hm43
+       1  Providencia manganoxydans
+       1  Proteus mirabilis
+       1  Prevotella nigrescens
+       1  Pradoshia sp. D12
+       1  Porphyromonas somerae
+       1  Porphyromonas levii
+       1  Plasmodium cynomolgi
+       1  Petrimonas sulfuriphila
+       1  Pectobacterium carotovorum
+       1  Pantoea allii
+       1  Paenibacillus sp. FSL R10-2782
+       1  Oryza sativa
+       1  Oryza glaberrima
+       1  Nostoc sp. TCL26-01
+       1  Nostoc sp. C117
+       1  Mycolicibacterium aichiense
+       1  Mycobacterium xenopi
+       1  Midgardsormrvirus midgardsormr38
+       1  Micromonospora sp. NBC_01699
+       1  Metabacillus sediminilitoris
+       1  Massilia atriviolacea
+       1  Malaciobacter molluscorum
+       1  Lysinibacillus sp. JNUCC-52
+       1  Longimonas haloalkaliphila
+       1  Ligilactobacillus salivarius
+       1  Leptospira kobayashii
+       1  Lentilactobacillus terminaliae
+       1  Kwoniella dendrophila
+       1  Kaistella flava (ex Peng et al. 2021)
+       1  Hymenobacter sp. 5317J-9
+       1  Hwangdonia lutea
+       1  Halotolerantifilum yawarlongkerapense
+       1  Glycine max
+       1  Gimesia aquarii
+       1  Geobacter sp. SVR
+       1  Frigoriglobus tundricola
+       1  Flavobacterium dauae
+       1  Flavobacterium agricola
+       1  Firehammervirus CP21
+       1  Escherichia sp. KS167_9B
+       1  Enterococcus rotai
+       1  Empedobacter sp. EJD.6dd
+       1  Crocosphaera watsonii
+       1  Coccidioides posadasii
+       1  Clostridium sp. OS1-26
+       1  Clostridium sp. MB40-C1
+       1  Clostridium butyricum
+       1  Clostridium botulinum
+       1  Chryseobacterium nakagawai
+       1  Chryseobacterium lactis
+       1  Chryseobacterium indoltheticum
+       1  Chania multitudinisentens
+       1  Caulobacter sp. FWC26
+       1  Candidatus Uabimicrobium helgolandensis
+       1  Candidatus Nitrosopumilus sediminis
+       1  Candidatus Borrelia undatumii
+       1  Campylobacter pinnipediorum
+       1  Campylobacter concisus
+       1  Campylobacter californiensis
+       1  Brassica oleracea
+       1  Bradyrhizobium sp. B117
+       1  Borrelia miyamotoi
+       1  Borrelia crocidurae
+       1  Beta vulgaris
+       1  Bergeriella denitrificans
+       1  Arcobacter ellisii
+       1  Arachis duranensis
+       1  Alkalimarinus sediminis
+       1  Alkalibacillus sp. S2W
+       1  Aliarcobacter cryaerophilus
+       1  Algibacter sp. AS12
+       1  Aestuariibaculum sp. YM273
+       1  Actinokineospora sp. UV203
+       1  Achromobacter aegrifaciens
+
+==================================================
+barcode16
+==================================================
+
+Total reads  : 40818
+Unclassified : 16328 (40.00%)
+Classified   : 24490 (60.00%)
+
+Organismen
+--------------------------------------------------
+   10479  Photobacterium leiognathi
+    2834  Osmia cornuta
+    1632  Prunus mume
+     661  Salvia splendens
+     613  Microbulbifer sp. SSSA002
+     576  Prunus persica
+     533  Populus trichocarpa
+     504  Escherichia coli
+     474  Populus alba
+     377  Prunus dulcis
+     316  Populus nigra
+     120  Klebsiella pneumoniae
+     111  Enterovibrio norvegicus
+      73  Streptomyces sp. NBC_01167
+      66  Homo sapiens
+      60  Alnus glutinosa
+      41  Streptomyces laculatispora
+      37  Rhodococcus jostii
+      36  Corylus avellana
+      34  Salmonella enterica
+      33  Elizabethkingia anophelis
+      29  Enterococcus faecalis
+      22  Capsicum annuum
+      20  Osmia lignaria
+      17  Musa acuminata
+      17  Malania oleifera
+      17  Lactuca virosa
+      17  Humulus lupulus
+      16  Staphylococcus aureus
+      16  Paenibacillus lautus
+      15  Solanum stenotomum
+      15  Rutidosis leptorrhynchoides
+      15  Osmia bicornis
+      15  Malus domestica
+      15  Cryptomeria japonica
+      14  Apium graveolens
+      13  Hevea brasiliensis
+      13  Camellia sinensis
+      13  Actinidia eriantha
+      12  Vicia villosa
+      12  Pyrus communis
+      11  Ziziphus jujuba
+      11  Lupinus angustifolius
+      11  Impatiens glandulifera
+      11  Gossypium hirsutum
+      11  Euphorbia lathyris
+      10  Manihot esculenta
+      10  Cannabis sativa
+       9  Vigna unguiculata
+       9  Lycium ferocissimum
+       9  Carya illinoinensis
+       9  Benincasa hispida
+       8  Zingiber officinale
+       8  Solanum pennellii
+       8  Papaver somniferum
+       8  Olea europaea
+       8  Malus sylvestris
+       8  Lactuca saligna
+       8  Juglans regia
+       8  Juglans microcarpa x Juglans regia
+       8  Cajanus cajan
+       7  Quercus robur
+       7  Phaseolus vulgaris
+       7  Nicotiana tabacum
+       7  Magnolia sinica
+       7  Lathyrus oleraceus
+       7  Helianthus annuus
+       7  Cynara cardunculus
+       7  Cucurbita pepo
+       7  Cucumis melo
+       7  Cicer arietinum
+       7  Castanea sativa
+       7  Arachis stenosperma
+       7  Acidithiobacillus ferriphilus
+       6  Vitis vinifera
+       6  Vigna angularis
+       6  Solanum dulcamara
+       6  Nicotiana attenuata
+       6  Henckelia pumila
+       6  Eucalyptus grandis
+       6  Escherichia albertii
+       6  Erigeron canadensis
+       6  Amaranthus tricolor
+       5  Zea mays
+       5  Triticum aestivum
+       5  Telopea speciosissima
+       5  Solanum lycopersicum
+       5  Silene latifolia
+       5  Ricinus communis
+       5  Primulina huaijiensis
+       5  Phragmites australis
+       5  Mercurialis annua
+       5  Medicago sativa
+       5  Elaeis guineensis
+       5  Chenopodium album
+       4  Vibrio alginolyticus
+       4  Trifolium pratense
+       4  Theobroma cacao
+       4  Salvia miltiorrhiza
+       4  Salvia hispanica
+       4  Rhodamnia argentea
+       4  Raphanus sativus
+       4  Quercus lobata
+       4  Phoenix dactylifera
+       4  Medicago truncatula
+       4  Lotus japonicus
+       4  Lactuca serriola
+       4  Ipomoea triloba
+       4  Gossypium arboreum
+       4  Diospyros lotus
+       4  Dioscorea cayenensis
+       4  Cucumis sativus
+       4  Brassica napus
+       4  Actinomadura sp. WMMA1423
+       3  Vigna radiata
+       3  Triticum dicoccoides
+       3  Rosa rugosa
+       3  Rhododendron vialii
+       3  Punica granatum
+       3  Primulina tabacum
+       3  Primulina eburnea
+       3  Panicum virgatum
+       3  Nymphaea colorata
+       3  Nicotiana sylvestris
+       3  Miscanthus floridulus
+       3  Macadamia integrifolia
+       3  Lolium rigidum
+       3  Gossypium raimondii
+       3  Francisella halioticida
+       3  Daucus carota
+       3  Coffea arabica
+       3  Citrus sinensis
+       3  Camelina sativa
+       3  Brassica oleracea
+       3  Argentina anserina
+       2  Wolffia australiana
+       2  Vitis riparia
+       2  Vibrio fortis
+       2  Vibrio cholerae
+       2  Tripterygium wilfordii
+       2  Spinacia oleracea
+       2  Sorghum bicolor
+       2  Sesamum indicum
+       2  Rhizophagus irregularis
+       2  Nicotiana tomentosiformis
+       2  Mangifera indica
+       2  Lycium barbarum
+       2  Lolium perenne
+       2  Fragaria vesca
+       2  Escherichia sp. KS167_9B
+       2  Escherichia marmotae
+       2  Coffea eugenioides
+       2  Carex rostrata
+       2  Buchnera aphidicola
+       2  Beta vulgaris
+       2  Asparagus officinalis
+       2  Arachis hypogaea
+       2  Ananas comosus
+       1  Yersinia sp. SCPM-O-B-9106 (C-191)
+       1  Wolbachia endosymbiont (group A) of Longitarsus flavicornis
+       1  Vreelandella venusta
+       1  Vibrio neptunius
+       1  Veillonella parvula
+       1  Typha latifolia
+       1  Theileria equi
+       1  Tenacibaculum polynesiense
+       1  Streptomyces sp. SAT1
+       1  Streptomyces sp. NBC_00670
+       1  Streptomyces sp. NBC_00525
+       1  Spongiibacter sp. C9W
+       1  Spiroplasma taiwanense
+       1  Spiroplasma ixodetis
+       1  Spiroplasma endosymbiont of Tiphia femorata
+       1  Spiroplasma endosymbiont of Polydrusus pterygomalis
+       1  Spiroplasma endosymbiont of Notiophilus biguttatus
+       1  Spiroplasma endosymbiont of Nomada ruficornis
+       1  Spiroplasma endosymbiont of Dactylopius coccus
+       1  Spiroplasma endosymbiont of Andrena trimmerana
+       1  Spiroplasma endosymbiont of Aleiodes alternator
+       1  Spiroplasma chrysopicola
+       1  Spironucleus salmonicida
+       1  Sphingomonas sp. HMP6
+       1  Shewanella baltica
+       1  Salmonella sp.
+       1  Saccharomycodes ludwigii
+       1  Rosa chinensis
+       1  Rivularia sp. PCC 7116
+       1  Rickettsiella endosymbiont of Litargus connexus
+       1  Purpureocillium takamizusanense
+       1  Pseudomonas sp. ASL8
+       1  Plasmodium relictum
+       1  Plasmodium adleri (nom. inval.)
+       1  Pichia kudriavzevii
+       1  Physcomitrium patens
+       1  Oryza glaberrima
+       1  Oryza brachyantha
+       1  Olleya sp. NP1-10
+       1  Neobacillus sp. D3-1R
+       1  Nakamurella antarctica
+       1  Mycoplasmopsis synoviae
+       1  Mycoplasma sp. 3686h
+       1  Mycolicibacterium frederiksbergense
+       1  Mucilaginibacter sp. R-33
+       1  Mucilaginibacter sp.
+       1  Methylobacterium sp. 142-1Y
+       1  Mesobacillus jeotgali
+       1  Marinobacter sp. AN1
+       1  Maribacter sp. LLG6340-A2
+       1  Malaciobacter marinus
+       1  Lactuca sativa
+       1  Lacimicrobium alkaliphilum
+       1  Labilibaculum antarcticum
+       1  Kwoniella dendrophila
+       1  Klebsiella michiganensis
+       1  Ihubacter sp. rT4E-8
+       1  Hordeum vulgare
+       1  Herbaspirillum frisingense
+       1  Halosquirtibacter xylanolyticus
+       1  Halosquirtibacter laminarini
+       1  Glycine max
+       1  Gaoshiqia hydrogeniformans
+       1  Fulvia fulva
+       1  Flavobacterium sp. IC2-16
+       1  Flavobacterium faecale
+       1  Flavobacterium aquiphilum
+       1  Flavobacterium agricola
+       1  Ferrimonas sp. SCSIO 43195
+       1  Erwinia sp. LJJL01
+       1  Enterococcus hirae
+       1  Enterococcus faecium
+       1  Enterobacter hormaechei
+       1  Elizabethkingia meningoseptica
+       1  Dictyostelium discoideum
+       1  Desulfofarcimen acetoxidans
+       1  Deferribacter desulfuricans
+       1  Dankookia sp. P2
+       1  Curcuma longa
+       1  Corynebacterium kroppenstedtii
+       1  Clostridium sp. OS1-26
+       1  Chryseobacterium sp. MMS23-Vi53
+       1  Candidatus Wolbachia massiliensis
+       1  Candidatus Kinetoplastidibacterium galati
+       1  Bacteroides finegoldii
+       1  Arachis duranensis
+       1  Arabidopsis thaliana
+       1  Alkalimonas collagenimarina
+       1  Acinetobacter bohemicus
+       1  Abyssalbus ytuae
+
+==================================================
+barcode17
+==================================================
+
+Total reads  : 37789
+Unclassified : 15472 (40.94%)
+Classified   : 22317 (59.06%)
+
+Organismen
+--------------------------------------------------
+   12087  Escherichia coli
+    2649  Osmia cornuta
+     996  Prunus mume
+     842  Microbulbifer sp. SSSA002
+     770  Photobacterium leiognathi
+     383  Prunus persica
+     274  Prunus dulcis
+     202  Klebsiella pneumoniae
+     124  Enterovibrio norvegicus
+     118  Homo sapiens
+      82  Vibrio cholerae
+      43  Flavobacterium faecale
+      41  Streptomyces sp. NBC_01167
+      41  Salmonella enterica
+      30  Populus trichocarpa
+      24  Enterococcus faecalis
+      20  Salvia splendens
+      19  Musa acuminata
+      19  Alnus glutinosa
+      18  Streptomyces laculatispora
+      17  Elizabethkingia anophelis
+      16  Populus alba
+      14  Osmia lignaria
+      14  Corylus avellana
+      13  Populus nigra
+      13  Lactuca virosa
+      12  Osmia bicornis
+      11  Zingiber officinale
+      10  Ziziphus jujuba
+      10  Staphylococcus aureus
+      10  Malus domestica
+      10  Camellia sinensis
+       8  Malus sylvestris
+       7  Pyrus communis
+       6  Olea europaea
+       6  Humulus lupulus
+       6  Brassica napus
+       5  Magnolia sinica
+       5  Juglans microcarpa x Juglans regia
+       5  Impatiens glandulifera
+       5  Gossypium arboreum
+       5  Eucalyptus grandis
+       5  Capsicum annuum
+       4  Rutidosis leptorrhynchoides
+       4  Papaver somniferum
+       4  Paenibacillus lautus
+       4  Nicotiana attenuata
+       4  Lathyrus oleraceus
+       4  Helianthus annuus
+       4  Escherichia albertii
+       4  Cryptomeria japonica
+       4  Carya illinoinensis
+       4  Asparagus officinalis
+       4  Apium graveolens
+       3  Vigna unguiculata
+       3  Rosa chinensis
+       3  Pseudomonas aeruginosa
+       3  Primulina eburnea
+       3  Manihot esculenta
+       3  Malania oleifera
+       3  Macadamia integrifolia
+       3  Lactuca sativa
+       3  Hevea brasiliensis
+       3  Fragaria vesca
+       3  Euphorbia lathyris
+       3  Erwinia sp. HDF1-3R
+       3  Elaeis guineensis
+       3  Cucumis sativus
+       3  Benincasa hispida
+       2  Zea mays
+       2  Vitis riparia
+       2  Vicia villosa
+       2  Vibrio alginolyticus
+       2  Trifolium pratense
+       2  Solanum stenotomum
+       2  Solanum dulcamara
+       2  Silene latifolia
+       2  Ricinus communis
+       2  Primulina tabacum
+       2  Phoenix dactylifera
+       2  Phaseolus vulgaris
+       2  Lycium ferocissimum
+       2  Lupinus angustifolius
+       2  Lactuca serriola
+       2  Lactuca saligna
+       2  Hordeum vulgare
+       2  Gossypium hirsutum
+       2  Francisella halioticida
+       2  Daucus carota
+       2  Cynara cardunculus
+       2  Cucurbita pepo
+       2  Castanea sativa
+       2  Camelina sativa
+       2  Arachis stenosperma
+       2  Ananas comosus
+       1  Winogradskyella sp. HaHa_3_26
+       1  Vigna angularis
+       1  Vibrio quintilis
+       1  Vibrio algicola
+       1  Variovorax paradoxus
+       1  Vallitalea pronyensis
+       1  Triticum urartu
+       1  Triticum aestivum
+       1  Tripterygium wilfordii
+       1  Theobroma cacao
+       1  Syntrophomonas wolfei
+       1  Streptomyces sp. NBC_01136
+       1  Streptomyces sp. NBC_00525
+       1  Staphylococcus agnetis
+       1  Spiroplasma endosymbiont of Dioctria linearis
+       1  Solanum pennellii
+       1  Solanum lycopersicum
+       1  Sesamum indicum
+       1  Sediminispirochaeta smaragdinae
+       1  Salvia miltiorrhiza
+       1  Rhododendron vialii
+       1  Rhodamnia argentea
+       1  Quercus lobata
+       1  Punica granatum
+       1  Pseudomonas sp. D3
+       1  Pseudomonas fluorescens
+       1  Primulina huaijiensis
+       1  Prevotella melaninogenica
+       1  Prevotella communis
+       1  Physcomitrium patens
+       1  Pelosinus sp. UFO1
+       1  Pedobacter steynii
+       1  Panicum virgatum
+       1  Oryza sativa
+       1  Nymphaea colorata
+       1  Nostoc sp. 'Peltigera membranacea cyanobiont' N6
+       1  Nostoc sp. C057
+       1  Morganella morganii
+       1  Miscanthus floridulus
+       1  Methylophilus sp. TWE2
+       1  Mercurialis annua
+       1  Medicago sativa
+       1  Mangrovibacillus cuniculi
+       1  Mangifera indica
+       1  Lycium barbarum
+       1  Lolium rigidum
+       1  Leuconostoc lactis
+       1  Leishmania sp. Namibia
+       1  Legionella cardiaca
+       1  Lactobacillus jensenii
+       1  Kosakonia cowanii
+       1  Hoylesella buccalis
+       1  Henckelia pumila
+       1  Haloimpatiens lingqiaonensis
+       1  Gossypium raimondii
+       1  Escherichia sp. KS167_9B
+       1  Erwinia sp. LJJL01
+       1  Diospyros lotus
+       1  Cutibacterium acnes
+       1  Cucumis melo
+       1  Coffea arabica
+       1  Clostridium kluyveri
+       1  Clostridium estertheticum
+       1  Chenopodium album
+       1  Cannabis sativa
+       1  Candida albicans
+       1  Campylobacter pinnipediorum
+       1  Cajanus cajan
+       1  Bremia lactucae
+       1  Brassica oleracea
+       1  Bacillus sp. EA-CB0995
+       1  Arabidopsis thaliana
+       1  Anabaena sp. WA102
+       1  Amaranthus tricolor
+       1  Affinirhizobium pseudoryzae
+       1  Actinidia eriantha
+       1  Acetobacterium carbinolicum
+
+==================================================
+barcode18
+==================================================
+
+Total reads  : 38242
+Unclassified : 17015 (44.49%)
+Classified   : 21227 (55.51%)
+
+Organismen
+--------------------------------------------------
+    4354  Osmia cornuta
+    1816  Prunus mume
+     928  Photobacterium leiognathi
+     855  Microbulbifer sp. SSSA002
+     735  Prunus persica
+     504  Prunus dulcis
+     281  Escherichia coli
+     114  Klebsiella pneumoniae
+     114  Enterovibrio norvegicus
+      90  Streptomyces laculatispora
+      60  Elizabethkingia anophelis
+      49  Homo sapiens
+      36  Streptomyces sp. NBC_01167
+      32  Salmonella enterica
+      31  Enterococcus faecalis
+      27  Paenibacillus lautus
+      26  Pyrus communis
+      21  Staphylococcus aureus
+      19  Osmia bicornis
+      17  Populus trichocarpa
+      16  Salvia splendens
+      15  Osmia lignaria
+      14  Malus domestica
+      13  Musa acuminata
+      13  Capsicum annuum
+      10  Cryptomeria japonica
+       9  Populus alba
+       9  Corylus avellana
+       9  Alnus glutinosa
+       8  Ziziphus jujuba
+       8  Parabacteroides goldsteinii
+       8  Humulus lupulus
+       8  Apium graveolens
+       7  Lactuca virosa
+       7  Camellia sinensis
+       6  Nicotiana attenuata
+       6  Mangifera indica
+       6  Malus sylvestris
+       6  Erwinia sp. LJJL01
+       6  Diospyros lotus
+       6  Cannabis sativa
+       5  Spiroplasma ixodetis
+       5  Solanum pennellii
+       5  Rutidosis leptorrhynchoides
+       5  Cicer arietinum
+       4  Vibrio alginolyticus
+       4  Solanum lycopersicum
+       4  Ricinus communis
+       4  Quercus lobata
+       4  Olea europaea
+       4  Malania oleifera
+       4  Magnolia sinica
+       4  Lycium barbarum
+       4  Impatiens glandulifera
+       4  Gossypium arboreum
+       4  Flavobacterium faecale
+       4  Escherichia albertii
+       4  Cucurbita pepo
+       4  Castanea sativa
+       4  Carya illinoinensis
+       3  Zingiber officinale
+       3  Typha latifolia
+       3  Spiroplasma endosymbiont of Zeiraphera isertana
+       3  Spiroplasma endosymbiont of Colias croceus
+       3  Spiroplasma endosymbiont of Acasis viretata
+       3  Solanum stenotomum
+       3  Solanum dulcamara
+       3  Silene latifolia
+       3  Salmonella sp.
+       3  Rosa chinensis
+       3  Rhododendron vialii
+       3  Quercus robur
+       3  Pseudomonas aeruginosa
+       3  Populus nigra
+       3  Lupinus angustifolius
+       3  Lotus japonicus
+       3  Lathyrus oleraceus
+       3  Lactuca sativa
+       3  Juglans microcarpa x Juglans regia
+       3  Hevea brasiliensis
+       3  Euphorbia lathyris
+       3  Eucalyptus grandis
+       3  Cynara cardunculus
+       3  Camelina sativa
+       3  Asparagus officinalis
+       3  Arachis stenosperma
+       2  Vitis vinifera
+       2  Vigna unguiculata
+       2  Vigna radiata
+       2  Tripterygium wilfordii
+       2  Telopea speciosissima
+       2  Spiroplasma endosymbiont of Tiphia femorata
+       2  Rhodococcus jostii
+       2  Raphanus sativus
+       2  Primulina eburnea
+       2  Nicotiana tomentosiformis
+       2  Miscanthus floridulus
+       2  Medicago truncatula
+       2  Lycium ferocissimum
+       2  Helianthus annuus
+       2  Fragaria vesca
+       2  Escherichia sp. KS167_9B
+       2  Elaeis guineensis
+       2  Cupriavidus metallidurans
+       2  Cucumis sativus
+       2  Coffea eugenioides
+       2  Coffea arabica
+       2  Cajanus cajan
+       2  Brassica napus
+       2  Blautia luti
+       2  Arachis hypogaea
+       2  Ananas comosus
+       1  Zhaonella formicivorans
+       1  Winogradskyella sp. R77965
+       1  Vitis riparia
+       1  Triticum aestivum
+       1  Trifolium pratense
+       1  Toxoplasma gondii
+       1  Synechococcus sp. CBW1108
+       1  Streptomyces sp. T12
+       1  Streptomyces koyangensis
+       1  Staphylococcus warneri
+       1  Staphylococcus felis
+       1  Spiroplasma poulsonii
+       1  Spiroplasma endosymbiont of Lasioglossum malachurum
+       1  Spiroplasma endosymbiont of Apeira syringaria
+       1  Spiroplasma endosymbiont of Andrena trimmerana
+       1  Spinacia oleracea
+       1  Setaria viridis
+       1  Serratia inhibens
+       1  Romboutsia sp. 13368
+       1  Rhodopirellula sp. J20-39
+       1  Rhodomicrobium vannielii
+       1  Rhodococcus sovatensis
+       1  Rhizophagus irregularis
+       1  Primulina huaijiensis
+       1  Polaribacter sejongensis
+       1  Phoenix dactylifera
+       1  Peribacillus asahii
+       1  Peptacetobacter sp. AB845
+       1  Pedobacter sp. AC379
+       1  Parasphingorhabdus sp. NYA22
+       1  Paraglaciecola psychrophila
+       1  Papaver somniferum
+       1  Panicum virgatum
+       1  Paenibacillus psychroresistens
+       1  Oxynema acuminatum
+       1  Oryza sativa
+       1  Okeanomitos corallinicola
+       1  Nocardioides panacisoli
+       1  Nicotiana tabacum
+       1  Nautilia profundicola
+       1  [Mycoplasma] mobile
+       1  Morganella morganii
+       1  Metabacillus sp. KJ11-3
+       1  Medicago sativa
+       1  Marinarcus sediminis (SeqCode)
+       1  Manihot esculenta
+       1  Macadamia integrifolia
+       1  Lysinibacillus fusiformis
+       1  Lolium rigidum
+       1  Levilactobacillus yonginensis
+       1  Leptotrichia wadei
+       1  Leptospira cinconiae
+       1  Leishmania orientalis
+       1  Lactuca serriola
+       1  Lactuca saligna
+       1  Hordeum vulgare
+       1  Henckelia pumila
+       1  Helicobacter cetorum
+       1  Halothece sp. PCC 7418
+       1  Gossypium raimondii
+       1  Geminocystis sp. NIES-3709
+       1  Fusobacterium nucleatum
+       1  Francisella halioticida
+       1  Flavobacterium eburneipallidum
+       1  Flavobacterium cupriresistens
+       1  Enterococcus alishanensis
+       1  Desulfonema magnum
+       1  Daucus carota
+       1  Cucumis melo
+       1  Citrus sinensis
+       1  Chryseobacterium sp. AC417
+       1  Chryseobacterium indoltheticum
+       1  Carex rostrata
+       1  Capilliphycus salinus
+       1  Candidatus Desulfofervidus auxilii
+       1  Brassica rapa
+       1  Bradyrhizobium sp. YCK136
+       1  Blautia wexlerae
+       1  Biomaibacter acetigenes
+       1  Beta vulgaris
+       1  Benincasa hispida
+       1  Bdellovibrio sp. NC01
+       1  Bartonella krasnovii
+       1  Bacteroides ovatus
+       1  Bacteroides nordii
+       1  Bacillus sp. EA-CB0995
+       1  Bacillus atrophaeus
+       1  Aurantibacter sp. UH7
+       1  Argentina anserina
+       1  Arcobacter roscoffensis
+       1  Amycolatopsis cynarae
+       1  Amniculibacterium sp. G2-70
+       1  Amaranthus tricolor
+       1  Agrobacterium tumefaciens
+       1  Aegilops tauschii
+       1  Actinomadura sp. WMMA1423
+       1  Actinidia eriantha
+       1  Acinetobacter sp. A1-4-2
+       1  Acinetobacter baumannii
+       1  Acanthopleuribacter pedis
+
+==================================================
+barcode19
+==================================================
+
+Total reads  : 22853
+Unclassified : 22853 (100.00%)
+Classified   : 0 (0.00%)
+
+Organismen
+--------------------------------------------------
+
+==================================================
+barcode20
+==================================================
+
+Total reads  : 27012
+Unclassified : 27012 (100.00%)
+Classified   : 0 (0.00%)
+
+Organismen
+--------------------------------------------------
+
+==================================================
+barcode21
+==================================================
+
+Total reads  : 36784
+Unclassified : 36784 (100.00%)
+Classified   : 0 (0.00%)
+
+Organismen
+--------------------------------------------------
+
+==================================================
+barcode22
+==================================================
+
+Total reads  : 20372
+Unclassified : 20372 (100.00%)
+Classified   : 0 (0.00%)
+
+Organismen
+--------------------------------------------------
+
+==================================================
+barcode23
+==================================================
+
+Total reads  : 25011
+Unclassified : 25011 (100.00%)
+Classified   : 0 (0.00%)
+
+Organismen
+--------------------------------------------------
+
+==================================================
+barcode24
+==================================================
+
+Total reads  : 30818
+Unclassified : 30818 (100.00%)
+Classified   : 0 (0.00%)
+
+Organismen
+--------------------------------------------------
+
+
